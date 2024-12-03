@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Urbanist", sans-serif;
 }
 a{
     text-decoration: none;
@@ -792,6 +791,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .rform form .formgroup textarea{
+    font-family: "Urbanist", sans-serif;
     display: flex;
     resize: none;
     width: 440px;
