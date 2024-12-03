@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5,h6,p{
     margin:0 auto;
     font-family: "Urbanist", sans-serif;
 }
+
 /* =============navbar strat hare============ */
 #navber{
     padding: 23px 0;  
@@ -74,112 +75,122 @@ h1,h2,h3,h4,h5,h6,p{
     color: #6345D5;
 }
 /* ==============navber end hare============== */
- /* =============benner strat hare=============== */
- #benner{
-  
- }
-.shape1,.shape2,.shape3{
-position: relative;
- }   
-.shape1 img{
+
+/* ====================== banner part start ======================== */
+
+.shap1,.shap2,.shap3{
+    position: relative;
+}
+.shap1 img{
     position: absolute;
     top: 0;
     right: 0;
     z-index: 0;
- } 
- .shape2{
+}
+.shap2{
     position: absolute;
-    top: 100px;
     right: 0;
- }
- .shape3{
+    top: 100px;
+    z-index: 0;
+}
+.shap3 img{
     position: absolute;
     left: 0;
-    top: 200px;
- }
-.benner_dacs{
-    width: 503px;
- }
-.benner-wrapper{
-    display: flex;
-    padding-top: 215px;
-    gap: 94px;
-    padding-bottom: 660px;
+    top: 150px;
 }
- .benner_dacs h1{
+#banner-part .banner{
+    padding-top: 215px;
+    padding-bottom: 660px;
+    display: flex;
+    gap: 54px;
+
+}
+.banner .banner-text{
+    position: relative;
+    z-index: 999;
+}
+.banner .banner-text h1{
+    width: 503px;
     color: #192252;
-    font-family: Urbanist;
     font-size: 80px;
+    font-style: normal;
     font-weight: 700;
     line-height: 110%;
- }
- .benner_dacs p{
-    min-width: 332PX;
-    color: #848FAC;
+}
+
+.banner .banner-text p{
+    width: 332px;
+    color:  #848FAC;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
     margin: 40px 0;
- }
- .benner_btn a:first-child{
+}
+.banner .banner-text .ban-btn{
+    display: flex;
+    gap: 24px;
+}
+.banner .banner-text .ban-btn a:first-child{
     padding: 20px 40px;
+    display: inline-block;
     border-radius: 8px;
     background: #6345D5;
-    color: #fff;
+    color: #FFF;
     font-size: 18px;
+    font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    display: inline-flex;
     letter-spacing: 0.2px;
-    transition: all linear 0.3s;
- }
-.benner_btn a:first-child:hover{
-    background-color: #fff;
-    color: #6345D5;
- }
- .benner_btn a:last-child{
+    transition: all linear .3s;
+}
+.banner .banner-text .ban-btn a:first-child:hover{
+    background: #FFF;
+    color: #192252;
+}
+
+.banner .banner-text .ban-btn a:last-child{
     padding: 20px 40px;
+    display: inline-block;
     border-radius: 8px;
-    background: #fff;
     color: #6345D5;
+    background: #FFF;
     font-size: 18px;
+    font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    display: inline-flex;
     letter-spacing: 0.2px;
-    transition: all linear 0.3s;
- }
- .benner_btn a :last-child:hover{
-    background-color: #6345D5;
-    color: #fff;
- }
- .benner_img{
+    transition: all linear .3s;
+}
+.banner .banner-text .ban-btn a:last-child:hover{
+    color: #FFF;
+    background: #192252;
+}
+.banner-img{
     width: 683px;
-    height: 200px;
     position: relative;
     left: 40px;
     z-index: 999;
- }
- .benner_bigimg_box{
+} 
+.box{
     position: relative;
- }
- .benner_bigimg{
+}
+.bigimg{
     width: 100%;
     height: 882px;
     border-radius: 24px;
     background: #D9D9D9;
     position: absolute;
-    bottom: -422px;
-    overflow: hidden;
+    bottom: -442px;
     z-index: 999;
- }
- .benner_bigimg img{
+    overflow: hidden;
+}
+.bigimg img{
     width: 100%;
-    height: 882px;
+    height: 100%;
     object-fit: cover;
- }
-/* ============benner end hare=========== */
+}
+/* ====================== banner part end ======================== */
 /* ============xyz strat hare============== */
 #xyz{
     background-color: #201353;
