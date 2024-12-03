@@ -247,106 +247,137 @@ h1,h2,h3,h4,h5,h6,p{
     justify-content: start;
 }
 /* =============xyz end hare=============== */
-/* ==============feature strat hare=========== */
-#feature{
+/* ====================== feature part start ======================== */
+#feature-part{
     padding: 100px 0;
     background: #201353;
     position: relative;
 }
-.feature_heading{
+.fheading{
     display: flex;
     justify-content: space-between;
 }
-.feature_heading h2{
+.fheading h2{
+    max-width: 514px;
     color: #FFF;
     font-size: 52px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 514px;
 }
-.feature_heading p{
+
+.fheading p{
+    width: 555px;
     color: rgba(255, 255, 255, 0.64);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    width: 555px;
+    margin-top: 18px;
 }
-.feature_wrapper{
+.feature-main{
     margin-top: 48px;
+ 
+}
+.feature{
     display: flex;
-    gap: 24px;
     flex-direction: column;
 }
-.feature_img{
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-}
-.feature_wrapper .one{
+.feature .transaction{
     width: 368px;
-    background-color: #fff;
     border-radius: 16px;
+    background: #FFF;
     padding: 24px;
 }
-.one .one_heading{
+.feature .transaction .icon{
     display: flex;
     align-items: center;
     gap: 16px;
 }
-.one .one_heading h4{
-    font-size: 16;
-    line-height: 150%;
+
+.feature .transaction .icon h4{
     color: #192252;
+    font-size: 18px;
+    font-style: normal;
     font-weight: 600;
+    line-height: 150%;
 }
-.one >p{
-    margin-top: 20px;
+.feature .transaction p{
+    width: 320px;
+    color: #848FAC;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    color: #848FAC;
+    margin-top: 16px;
 }
-.feature_wrapper .history{
+.feature .transaction .prgs{
+    margin-top: 24px;
+    height: 4px;
+    border-radius: 2px;
+    background: #EFF3FA;
+    position: relative;
+    overflow: hidden;
+}
+.feature .transaction .prgs::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: #6345D5;
+    width: 50%;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.feature .history{
     width: 368px;
     border-radius: 16px;
-    border: 1.5px solid #2c1a74;
+    border: 1.5px solid #2C1A74;
     padding: 24px;
+    margin-top: 24px;
 }
-.history .history_heading{
+.feature .history .icon{
     display: flex;
-    gap: 12px;
     align-items: center;
+    gap: 12px;
 }
-.history .history_heading h4{
-    color: #fff;
+.feature .history .icon h4{
+    color: #FFF;
     font-size: 18px;
+    font-style: normal;
     font-weight: 600;
     line-height: 150%;
 }
-.skill1{
+.skilliton1{
     margin-top: 20px;
     width: 307px;
     height: 16px;
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.30);
 }
-.skill2{
+
+.skilliton2{
     margin-top: 10px;
     width: 287px;
     height: 16px;
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.30);
 }
-.skill3{
-    margin-top: 10px;
+
+.skilliton3{
+    margin-top: 26px;
     width: 320px;
     height: 4px;
     border-radius: 2px;
-    background: rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.15);
 }
-/* ==============feature strat hare=========== */
+.feature-img{
+    position: absolute;
+    bottom: -5px;
+    right: 295px;
+}
+/* ====================== feature part end ======================== */
 /* ==============vedio strat hare============= */
 #vedio{
     padding: 132px 0 140px 0;
